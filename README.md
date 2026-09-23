@@ -1,12 +1,10 @@
-# ExtinctionMarine – High-Performance 2D Top-Down Bullet Hell Simulation 🦖
+# ExtinctionMarine – High-Performance 2D Top-Down Bullet Hell Simulation Showcase🦖
 
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)]()
 [![.NET Standard](https://img.shields.io/badge/.NET_Standard_2.1-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)]()
 [![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)]()
 > 🔒 The full source code for Extinction Marine is closed-source and currently in commercial development by ProperType. This repository serves as an architectural and visual showcase.
 
-
-> A high-performance 2D Roguelite/Bullet-Hell survival game emphasizing clean architecture, memory management, and complete separation of business logic from the game engine.
 <div>
 <p align="center">
   <img src="./_Documentation/ExtinctionMarineBasicShowCase.gif" alt="Gameplay Demo1" />
@@ -31,7 +29,7 @@ This simulation was designed from the ground up using **Domain-Driven Design (DD
 
 ### 1. Engine-Agnostic Core Logic (Clean Architecture)
 The entire game state evaluation, experience tables, leveling math, and base entity configurations do not rely on Unity APIs. They are encapsulated inside a pure, decoupled C# Class Library (`GameLogic.dll`).
-* **The Domain:** Entities like `PlayerEntity`, `RaptorEntity`, `MicroraptorEntity`, `StegosaurusEntity`,`TriceratopsEntity`, `TRexEntity`, and `DiplodocusEntity` inherit from a clean C# `Entity` abstraction.
+* **The Domain:** Entities like `PlayerEntity`, `RaptorEntity`, `MicroraptorEntity`, `StegosaurusEntity`,`TriceratopsEntity`, `Dipholosaurus`, and `DiplodocusEntity` inherit from a clean C# `Entity` abstraction.
 * **Benefit:** The core mechanics are 100% unit-testable outside of Unity, completely immune to engine overhead, and could easily be ported to another framework or server architecture.
 
 ### 2. Zero-Allocation Swarm Mechanics (Advanced Object Pooling)
