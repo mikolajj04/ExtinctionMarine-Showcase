@@ -107,7 +107,7 @@ public void PlayUIHover()
 <p>
   <p>
     <img src="./_Documentation/PT_mark.png" alt="ProperType" width="30" align="absmiddle" />
-    &nbsp;Copyright (c) 2026 <a href="https://github.com/mikolajj04">Mikołaj Jussak</a> | <a href="https://propertype.dev">ProperType</a>. All rights reserved.<br>
+    Copyright (c) 2026&nbsp; <a href="https://github.com/mikolajj04">Mikołaj Jussak</a> | <a href="https://propertype.dev">ProperType</a>. All rights reserved.<br>
     See <a href="./LICENSE">LICENSE</a> for more information.
   </p>
 </p>
