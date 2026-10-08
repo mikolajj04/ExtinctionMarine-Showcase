@@ -27,7 +27,7 @@ In an alien biosphere that defies all evolutionary logic, survival demands stric
   </p>
   <br>
   <p>
-    <strong>Current State (v0.1.0 Alpha)</strong><br>
+    <strong>Current State (v0.2.0 Alpha)</strong><br>
     <img src="./_Documentation/EM_Current- Trim.gif" alt="Current Gameplay" />
     <br>
     <em>Core gameplay loop: Scale-aware swarm AI (with bosses), zero-allocation patterns, interface-driven upgrade & ability system.</em>
