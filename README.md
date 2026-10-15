@@ -5,7 +5,7 @@
 
 # ExtinctionMarine - High-Performance 2D Horde Survival Roguelite 🦖
 
-[![Version](https://img.shields.io/badge/Version-0.1.0_Alpha-darkred?style=for-the-badge)]()
+[![Version](https://img.shields.io/badge/Version-0.2.0_Alpha-darkred?style=for-the-badge)]()
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)]()
 [![.NET Standard](https://img.shields.io/badge/.NET_Standard_2.1-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)]()
 [![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)]()
