@@ -43,7 +43,7 @@ This simulation was designed from the ground up using **Domain-Driven Design (DD
 
 ### 1. Engine-Agnostic Core Logic (Clean Architecture)
 The entire game state evaluation, experience tables, leveling math, and base entity configurations do not rely on Unity APIs. They are encapsulated inside a pure, decoupled C# Class Library (`GameLogic.dll`).
-* **The Domain:** Entities like `PlayerEntity`, `RaptorEntity`, `MicroraptorEntity`, `StegosaurusEntity`,`TriceratopsEntity`, `TRexEntity`, and `DiplodocusEntity` inherit from a clean C# `Entity` abstraction.
+* **The Domain:** Entities like `PlayerEntity`, `RaptorEntity`, `MicroraptorEntity`, `StegosaurusEntity`,`TriceratopsEntity`, `TRexEntity`, `Dipholosaurus` and `DiplodocusEntity` inherit from a clean C# `Entity` abstraction.
 * **Benefit:** The core mechanics are 100% unit-testable outside of Unity, completely immune to engine overhead, and could easily be ported to another framework or server architecture.
 
 ### 2. Zero-Allocation Swarm Mechanics (Advanced Object Pooling)
